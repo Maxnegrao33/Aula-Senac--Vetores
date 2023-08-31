@@ -1,0 +1,23 @@
+#Aula de Vetores
+
+nome_da_tupla1 = (1, 2, 3) #tupla de inteiros
+print (nome_da_tupla1.conut(1))
+
+nome_da_tupla1 = (1, 1, 2, 3) #tupla de inteiros
+print (nome_da_tupla1.conut(1))
+
+nome_da_tupla1 = (1, 1, 2, 3) #tupla de inteiros
+print (nome_da_tupla1.conut(3))
+
+nome_da_tupla1 = (1, 2, 3) #tupla de inteiros
+print (nome_da_tupla1.conut(1))
+
+tupla_nomes = ('Maria', 'Joao', 'Paulo', 'Pedro', "Maria", 'Sérgio')
+indice_tupla = tupla_nomes.index('Maria') #Maria está na posição 0
+print (indice_tupla)
+
+indice_tupla = tupla_nomes.index('Maria', 0, 5) #trocar o nome de Maria por outro
+print (indice_tupla2)
+
+indice_tupla = tupla_nomes.index('Maria', 2, 5)
+print (indice_tupla3)
